@@ -1,0 +1,127 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            background-image:linear-gradient(rgb(116, 7, 116), rgb(202, 134, 8));
+           
+           background-repeat: no-repeat;
+        } */
+        .md{
+            padding: 10px;
+           
+           border: 2px solid red;
+             /* height: 730px; */
+            width: 500px; 
+            display: grid;
+             grid-template-areas:
+            'area1 area2 area3'
+            'area4 area2 area5'
+            'area6 area7 area8'
+            'area9 area7 area10';
+             gap:10px;
+    
+    
+            
+        }
+        img{
+             border: 2px solid #540de4;
+             height: 94%;
+            width: 100%;
+            
+            
+            
+        }
+        img:hover{
+            height: 100%;
+            width:103%;
+            box-shadow:0px 0px 11px 5px ;
+            border: hidden;
+           
+        }
+        .cd1{
+            grid-area: area1;
+            
+        }
+        .cd2{
+            grid-area: area2;
+        }
+        .cd3{
+            grid-area: area3;
+            
+        }
+        .cd4{
+            grid-area: area4;
+        }
+        .cd5{
+            grid-area: area5;
+        }
+        .cd6{
+            grid-area: area6;
+        }
+        .cd7{
+            grid-area: area7;
+        }
+        .cd8{
+            grid-area: area8;
+        }
+        .cd9{
+            grid-area: area9;
+        }
+        .cd10{
+            grid-area: area10;
+        }
+        h2{
+            background-color: chartreuse; 
+            color: chocolate; 
+            padding:10px;
+        }
+        h2:hover{
+            color: brown;
+            background-color: azure;
+        }
+        @media  screen and (min-width:220px) and (max-width:420px) {
+            .md{
+            padding: 10px;
+           
+           border: 2px solid red;
+             /* height: 730px; */
+            width: 500px; 
+            display: grid;
+             grid-template-areas:
+            'area1 area2 '
+            'area3 area4 '
+            'area5 area6 '
+            'area7 area8'
+            'area9 area10';
+             gap:10px;
+            
+        }
+    }
+       
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction=""><center><h2>Grid Template Areas </h2></center></marquee>
+   <center> <div class="md">
+        <div class="cd1 "><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkBXyh7Ev1vsD7UdvZuJHeGzOewrN_WVwZqw&s"/></div>
+        <div class="cd2 "><img src="https://m.media-amazon.com/images/I/71iwTKl6-xL._AC_UF894,1000_QL80_.jpg"/></div>
+        <div class="cd3 "><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQBh7wrQ18QzDzfAHq9ew-pjiu4r2ww5dqXoWGDxoTxc761bAp0PksP-vnAmZ1rz3hnZ04cowOSMQwpB5OA-4IXQun0dHDV5sYK4wDQ95UeiSLoYdjEgcW-tg"/></div>
+        <div class="cd4 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRk0sF0q0gViHuze2ksd30anhMY_l_Io5lww&s"/></div>
+        <div class="cd5 "><img src="https://us.123rf.com/450wm/nikkytok/nikkytok2111/nikkytok211100025/177994974-desk-lamp-on-the-table-gray-background-with-copy-space.jpg?ver=6"/></div>
+        <div class="cd6 "><img src="https://img.freepik.com/premium-photo/black-male-sunglasses-isolated-gray-background_98725-2011.jpg"/></div>
+        <div class="cd7 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Cm8a41-4JgXN82ytkupsEwPgwx9Jm3VYmA&s"/></div>
+        <div class="cd8 "><img src="https://m.media-amazon.com/images/I/71iwTKl6-xL._AC_UF894,1000_QL80_.jpg"/></div>
+        <div class="cd9 "><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQBh7wrQ18QzDzfAHq9ew-pjiu4r2ww5dqXoWGDxoTxc761bAp0PksP-vnAmZ1rz3hnZ04cowOSMQwpB5OA-4IXQun0dHDV5sYK4wDQ95UeiSLoYdjEgcW-tg"/></div>
+        <div class="cd10 "><img src="https://us.123rf.com/450wm/nikkytok/nikkytok2111/nikkytok211100025/177994974-desk-lamp-on-the-table-gray-background-with-copy-space.jpg?ver=6"/></div></center>
+    </div>
+</body>
+</html>
